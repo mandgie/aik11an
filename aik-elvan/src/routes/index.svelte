@@ -1,14 +1,14 @@
 <script>
     import Field from '../components/FieldContainer.svelte';
+    import Header from '../components/Header.svelte';
 </script>
 
-
-
-<div class="container">
-    <h1>AIK11an</h1>
-    <Field />
+<div>
+    <div class="container">
+        <Header />
+        <Field />
+    </div>
 </div>
-
 
 <style>
 	.container {
@@ -17,5 +17,8 @@
 		margin: auto;
 		font-family: 'Comic Sans MS', cursive;
         text-align: center;
+	}
+    :global(body) {
+		background-color: #49494f;
 	}
 </style>

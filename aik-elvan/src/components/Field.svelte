@@ -7,17 +7,17 @@
     Field number: {fieldNr}
 </div>
 <div class="field-container">
-    <Player player={'PK'} posX={20} posY={250}/>
-    <Player player={'PK'} posX={160} posY={50}/>
-    <Player player={'AM'} posX={140} posY={200}/>
-    <Player player={'SS'} posX={140} posY={300}/>
-    <Player player={'PK'} posX={160} posY={400}/>
-    <Player player={'PK'} posX={360} posY={80}/>
-    <Player player={'AM'} posX={340} posY={200}/>
-    <Player player={'SS'} posX={340} posY={300}/>
-    <Player player={'PK'} posX={360} posY={420}/>
-    <Player player={'SS'} posX={540} posY={200}/>
-    <Player player={'PK'} posX={580} posY={300}/>
+    <Player player={'Nordfeldt'} posX={20} posY={240}/>
+    <Player player={'Lustig'} posX={160} posY={50}/>
+    <Player player={'Milosevic'} posX={140} posY={200}/>
+    <Player player={'Sotte'} posX={140} posY={300}/>
+    <Player player={'Otieno'} posX={160} posY={420}/>
+    <Player player={'Elbouzedi'} posX={360} posY={50}/>
+    <Player player={'Hussein'} posX={340} posY={200}/>
+    <Player player={'Larsson'} posX={340} posY={300}/>
+    <Player player={'Ahmed'} posX={360} posY={420}/>
+    <Player player={'Bahoui'} posX={540} posY={200}/>
+    <Player player={'Stefanelli'} posX={580} posY={300}/>
 </div>
 
 
@@ -26,7 +26,8 @@
 	.field-container {
         position: relative;
 		color: purple;
-        background-color: lightgreen;
+        /*background-color: rgb(239, 244, 171);*/
+        border: yellow 5px solid;
         width: 60%;
         height: 70%;
         margin: auto;

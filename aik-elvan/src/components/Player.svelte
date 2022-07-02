@@ -5,19 +5,12 @@
     export let posX;
     export let posY;
 
-    function handleMouseOut(e) {
-        console.log('sadf');
-    }
-
-    function handleMouseOver(e) {
-        const stars = document.querySelectorAll('.star');
-        console.log(stars);
-    }
 </script>
 
 
 
 <div class="player" style="top: {posX + 'px'}; left: {posY + 'px'}">
+        <i class="fa-solid fa-shirt"></i>
         <div class="player-style">{player}</div>
         <Stars />
 </div>
@@ -36,7 +29,7 @@
     }
     .player-style {
         background-color: black;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .star {
